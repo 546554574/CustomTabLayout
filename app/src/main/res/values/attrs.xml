@@ -4,6 +4,7 @@
         <attr name="titles" format="string" />
         <attr name="select_text_color" format="color" />
         <attr name="unselect_text_color" format="color" />
+        <attr name="line_color" format="color" />
         <attr name="line_padding" format="integer" />
     </declare-styleable>
 

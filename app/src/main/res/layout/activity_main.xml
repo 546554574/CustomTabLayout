@@ -10,8 +10,10 @@
     <com.toune.customtablayout.customtablayout.MyTabLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="5dp"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         app:titles="我的,还是你的,不，是他的。。。"
+        app:line_color="@color/colorPrimary"
         android:background="@color/colorPrimaryDark">
 
     </com.toune.customtablayout.customtablayout.MyTabLayout>

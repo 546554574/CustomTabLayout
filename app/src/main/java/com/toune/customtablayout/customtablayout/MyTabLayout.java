@@ -18,6 +18,7 @@ public class MyTabLayout extends LinearLayout {
     private List<String> titles = new ArrayList<>();
     private Context context;
     private int linePadding;
+    private int lineColor;
 
     public MyTabLayout(Context context) {
         super(context);
@@ -59,6 +60,7 @@ public class MyTabLayout extends LinearLayout {
                     lineTv.setWidth(viewById.getWidth());
                 }
             });
+            lineTv.setBackgroundColor(lineColor);
             textViewList.add(viewById);
             lineViewList.add(lineTv);
             inflate.setTag(i);
@@ -115,6 +117,7 @@ public class MyTabLayout extends LinearLayout {
             }
             selectColor = mTypedArray.getColor(R.styleable.my_tab_layout_select_text_color, Color.WHITE);
             defaultColor = mTypedArray.getColor(R.styleable.my_tab_layout_unselect_text_color,Color.GRAY);
+            lineColor = mTypedArray.getColor(R.styleable.my_tab_layout_line_color,Color.GRAY);
             linePadding = mTypedArray.getInt(R.styleable.my_tab_layout_line_padding, 9);
             mTypedArray.recycle();
             if (titles.size() > 0) {
