@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="my_tab_layout">
+        <attr name="titles" format="string" />
+        <attr name="select_text_color" format="color" />
+        <attr name="unselect_text_color" format="color" />
+        <attr name="line_padding" format="integer" />
+    </declare-styleable>
+
+</resources>
