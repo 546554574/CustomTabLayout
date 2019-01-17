@@ -8,10 +8,10 @@
         <attr name="select_text_color" format="color" />
         <attr name="unselect_text_color" format="color" />
         <attr name="line_padding" format="integer" />
+        <attr name="line_color" format="color"/>
         
         titles:头部文字显示，中间以逗号（,）隔开，注意是英文输入法下的逗号
         select_text_color：选中的文字颜色
         unselect_text_color：非选中的文字颜色
         line_padding：文字和下划线之间的距离
-        
-        如果需要下划线的颜色可以自己在属性里面添加，不会的话可以Issues中写一下
+        line_color:下划线的颜色
